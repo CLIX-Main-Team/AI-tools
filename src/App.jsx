@@ -18,12 +18,12 @@ export default function App() {
       <div className="grain" aria-hidden="true" />
       <header className="site-header">
         <Link to="/" className="brand">
-          <img src="/clix-logo.png" alt="Clix" className="brand-logo" />
           <span className="brand-text">
             הכלי היומי
-            <small>מדריך AI חדש כל בוקר</small>
+            <small>מדריכי AI חדשים כל יום</small>
           </span>
         </Link>
+        <img src="/clix-logo.png" alt="Clix" className="brand-logo" />
       </header>
       <Routes>
         <Route index element={<Home />} />

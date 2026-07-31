@@ -55,7 +55,7 @@ export default function ToolPage() {
           <p>{tool.tip}</p>
         </aside>
 
-        <a href={tool.link} target="_blank" rel="noreferrer" className="btn-primary">
+        <a href={tool.link} target="_blank" rel="noreferrer" className="btn-outline">
           לאתר של {tool.name} ↗
         </a>
       </article>
