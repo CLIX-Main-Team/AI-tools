@@ -71,16 +71,9 @@ h1, h2, h3, .brand-text, .poster-letter, .poster-name {
   gap: 12px;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  inline-size: 42px;
-  block-size: 42px;
-  border-radius: 12px;
-  font-size: 20px;
-  color: #1a1204;
-  background: linear-gradient(140deg, var(--accent-soft), var(--accent) 60%, #c97f18);
-  box-shadow: 0 4px 16px color-mix(in srgb, var(--accent) 35%, transparent);
+.brand-logo {
+  block-size: 34px;
+  inline-size: auto;
 }
 
 .brand-text {

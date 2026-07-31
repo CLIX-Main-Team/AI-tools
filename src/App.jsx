@@ -18,7 +18,7 @@ export default function App() {
       <div className="grain" aria-hidden="true" />
       <header className="site-header">
         <Link to="/" className="brand">
-          <span className="brand-mark">✦</span>
+          <img src="/clix-logo.png" alt="Clix" className="brand-logo" />
           <span className="brand-text">
             הכלי היומי
             <small>מדריך AI חדש כל בוקר</small>
